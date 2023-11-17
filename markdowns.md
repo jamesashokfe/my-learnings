@@ -1,0 +1,9 @@
+- `_` or `*` *for* _italics_
+- `**` for **bold**
+- `#` for headers. Repeat `#` to get `h1` to `h6`
+- Inline Links - `[Link Text](Link URL)` - eg: [Google](www.google.com)
+- Reference Links
+  - `[Link Text][Link Placeholder]`
+  - Define the `[Link Placeholder]: www.google.com` at the end of the markdown.
+- Inline Images - `![Alt Text](Image URL)`
+- Reference Images - Same as Reference links but preceded with a `!`
