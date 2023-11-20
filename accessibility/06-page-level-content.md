@@ -1,0 +1,22 @@
+# Page Level Content
+
+- content the user interacts with like images, tables, links, articles...
+- Accessible colors and contrast
+  - Poor color combinations can cause issues for user with vision impairment or for users viewing under low/high light environments.
+  - WCAG 2.1 level AA for color contrast requirements are complex to understand.
+  - Use accessibility tools and color contrast tools to identify right fg/bg color combinations.
+  - Contrast ratio requirement of at least 4.5:1 between text (and image text) and bg behind the text.
+- Decorative & Descriptive images
+  - `alt` attribute mandatory for both.
+  - `alt` value is not required for decorative images.
+- Semantic elements
+- Keyboard focus and Mouse hover
+- Clear link text (AAA)
+  - Avoid 'Click here', 'Read more'... links as screen readers may not understand the context behind the links.
+  - Use clear and short link text that is self explanatory for all users.
+- Group related links
+  - Grouping related menu links with lists like `<ul>` helps screen readers to provide additional context to the users.
+  - Do not over use this technique for all links, as it can result in extra noise / listening fatigue to the user.
+- Datatables for tabular data
+  - `<caption>` - first child of `<table>` | a brief description of the table and its data.
+  - `<th scope="col">` - `scope` attr to associate header cells with data cells.
