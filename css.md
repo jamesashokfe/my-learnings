@@ -8,6 +8,7 @@
 ```
 
 - SMACSS - Scalable and Modular Architecture for CSS
+- `@supports` CSS @rule to check if browser supports feature and then include certain styles.
 
 ## Colors
 ### HSL - Hue Saturation Lightness
