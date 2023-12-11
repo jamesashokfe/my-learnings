@@ -26,9 +26,9 @@
 }
 ```
 - `display: inline` - no width, height, top-bottom margins.
-- `box-reflect`: `below`|`above`|`left`|`right` - for reflection of elements.
-- `filter`: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url()
-- `object-fit`: fill|contain|cover|scale-down|none
+- `box-reflect: below | above | left | right` - for reflection of elements.
+- `filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url()`
+- `object-fit: fill | contain | cover | scale-down | none`
 - `outline-offset` - space between outline & border.
 - `var(--name, fallback_value)`
 - `accent-color` property specifies the accent color for user-interface controls.
@@ -88,19 +88,19 @@ Backgrounds
 - bg-size
   - `contain` - bg image will be fully visible.
   - `cover` - bg image may be stretched / clipped to fill the container.
-- bg-origin: padding-box|border-box|content-box
-- bg-clip: border-box|padding-box|content-box
+- bg-origin: `padding-box | border-box | content-box`
+- bg-clip: `border-box | padding-box | content-box`
 
 ---
 
 Texts
-- `text-justify`: auto|inter-word|inter-character|none
-- `text-overflow`: clip|ellipsis|*string*
-- `word-break`: normal|break-all|keep-all|break-word
-- `word-wrap`: normal|break-word
-- `writing-mode`: horizontal-tb|vertical-rl|vertical-lr
-- `direction`: ltr|rtl
-- `white-space`: normal|nowrap|pre|pre-line|pre-wrap
+- `text-justify: auto | inter-word | inter-character | none`
+- `text-overflow: clip | ellipsis | *string*`
+- `word-break: normal | break-all | keep-all | break-word`
+- `word-wrap: normal | break-word`
+- `writing-mode: horizontal-tb | vertical-rl | vertical-lr`
+- `direction: ltr | rtl`
+- `white-space: normal | nowrap | pre | pre-line | pre-wrap`
 
 ---
 
@@ -119,15 +119,15 @@ Animations
   - animation-timing-function
   - animation-delay
   - animation-iteration-count
-  - animation-direction - normal|reverse|alternate|alternate-reverse
-  - animation-fill-mode - none|forwards|backwards|both
-  - animation-play-state - paused|running
+  - animation-direction - normal | reverse | alternate | alternate-reverse
+  - animation-fill-mode - none | forwards | backwards | both
+  - animation-play-state - paused | running
 
 ---
 
 Multiple Columns
 - column-count
-- column-fill: balance|auto
+- column-fill: balance | auto
 - column-gap
 - column-rule-style
 - column-rule-width
@@ -159,7 +159,7 @@ Grid
 - `grid-auto-flow` - specify how `auto` items are placed on grid.
 - `grid-column: grid-column-start / grid-column-end`
 - `grid-row: grid-row-start / grid-row-end`
-- `grid-template: none|grid-template-rows / grid-template-columns|grid-template-areas|initial|inherit`
+- `grid-template: none | grid-template-rows / grid-template-columns | grid-template-areas | initial | inherit`
 
 ---
 
