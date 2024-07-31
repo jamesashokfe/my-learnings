@@ -1,5 +1,9 @@
 # Tools & Resources
 
+## JS
+- https://github.com/lydiahallie/javascript-questions
+- https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif
+
 ## Git
 - https://learngitbranching.js.org/
 - https://skills.github.com/
@@ -28,6 +32,10 @@
 
 ## AI
 - AI tutor - https://app.youlearn.ai/
+- [HuggingFace](https://huggingface.co/)
+- [Kaggle](https://www.kaggle.com/)
+- [Google AI Studio](https://aistudio.google.com/app/prompts/new_chat)
+- [Google Developers: AI-based solutions](https://developers.google.com/focus/ai-development)
 
 ## Accessibility
 - https://www.udemy.com/course/introduction-to-web-accessibility-wcag21/learn/lecture/19204706#overview
